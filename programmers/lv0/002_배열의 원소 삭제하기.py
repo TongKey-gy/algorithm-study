@@ -10,6 +10,7 @@ def solution(arr, delete_list):
     
     for x in arr:
         if x not in delete_list:
-            answer.append(x)
+            answer.append(x) 
     return answer
 
+    
